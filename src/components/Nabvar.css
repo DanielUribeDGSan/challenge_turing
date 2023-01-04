@@ -1,0 +1,11 @@
+.navbar {
+	background-color: transparent;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+}
+.navbar a,
+.nav-item a,
+.navbar-nav .nav-link.active {
+	color: #fff;
+}

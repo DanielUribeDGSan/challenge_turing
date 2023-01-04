@@ -1,0 +1,12 @@
+.color__line {
+	height: 25px;
+	position: relative;
+}
+.color__line img {
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: fill;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
