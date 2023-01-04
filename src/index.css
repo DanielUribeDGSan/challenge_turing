@@ -1,9 +1,22 @@
-html,
+@font-face {
+	font-family: 'SlalomSans';
+	src: url('public/fonts/SlalomSans_Regular.otf') format('otf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'SlalomSans';
+	src: url('public/fonts/SlalomSans_Bold.otf') format('otf');
+	font-weight: 600;
+}
+
+/* html,
 body,
 #root {
+	font-family: 'SlalomSans', sans-serif; 
 	height: 100%;
 	box-sizing: border-box;
-}
+} */
 
 html * {
 	box-sizing: inherit;
@@ -15,4 +28,67 @@ html * {
 	top: 0;
 	left: 0;
 	position: absolute;
+}
+
+a {
+	color: var(--primary);
+	text-decoration: none;
+}
+
+/* styles globals */
+
+/* backgrounds */
+.bg-gray {
+	background-color: var(--gray);
+}
+
+/* links */
+.link-small {
+	color: var(--primary);
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1.3rem;
+	letter-spacing: 2px;
+}
+
+.link-small:hover {
+	border-bottom: 2px solid var(--primary);
+	padding-bottom: 3px;
+}
+@media (max-width: 1000px) {
+	.link-small {
+		font-size: 1rem;
+	}
+}
+/* titles */
+.title-lg {
+	margin-top: 2rem;
+}
+.title-sm {
+	color: var(--primary);
+
+	font-weight: 700;
+	font-size: 1.3rem;
+	letter-spacing: 2px;
+}
+/* buttons */
+
+.button-lg {
+	background-color: transparent;
+	border: 0.1rem solid var(--primary);
+	color: var(--primary);
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.2rem;
+	line-height: 1.9rem;
+	padding: 0.7rem 0.7rem;
+	position: relative;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.button-lg:hover {
+	background-color: var(--primary);
+	border: 0.1rem solid var(--white);
+	color: var(--white);
 }

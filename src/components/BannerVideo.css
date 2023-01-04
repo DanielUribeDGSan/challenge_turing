@@ -12,7 +12,7 @@
 }
 
 .banner__video__container > .overlay {
-	background-color: #000;
+	background-color: var(--black);
 	opacity: 0.4;
 	transition: background-color 0.3s, opacity 0.3s;
 }
@@ -40,13 +40,13 @@
 
 .banner__video__title p {
 	font-size: 1.5rem;
-	color: #fff;
+	color: var(--white);
 	margin-top: 15%;
 }
 
 .banner__video__title h1,
 .banner__video__title h2 {
-	color: #fff;
+	color: var(--white);
 	display: inline-flex;
 }
 

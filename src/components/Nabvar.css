@@ -7,5 +7,5 @@
 .navbar a,
 .nav-item a,
 .navbar-nav .nav-link.active {
-	color: #fff;
+	color: var(--white);
 }
