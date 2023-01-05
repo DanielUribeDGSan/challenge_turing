@@ -1,9 +1,11 @@
 import React from 'react';
-
+import { BannerImage } from '../components/BannerImage';
+import { ColorLine } from '../components/ColorLine';
 export const ServicesPage = () => {
 	return (
-		<div>
-			<h1>ServiciosPage</h1>
-		</div>
+		<main>
+			<BannerImage />
+			<ColorLine />
+		</main>
 	);
 };

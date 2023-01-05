@@ -12,7 +12,7 @@ export const HomePage = () => {
 	const bannerVideoQuestion = '¿Qué es una consultoría ferozmente humana?';
 	console.log(screen.width, screen.height);
 	return (
-		<div>
+		<main>
 			<BannerVideo
 				title={bannerVideoTitle}
 				sub_title={bannerVideoSubTitle}
@@ -25,7 +25,10 @@ export const HomePage = () => {
 					Contribuimos con su empresa para mejorar la toma de decisiones a
 					través de sus datos.
 				</h1>
-				<Link to="/servicios" className="button-lg mt-4">
+				<Link
+					to="/servicios"
+					className="button-lg button-lg-primary-white mt-4"
+				>
 					Mas información
 				</Link>
 			</section>
@@ -44,6 +47,6 @@ export const HomePage = () => {
 			<section className="bg-gray pt-5 pb-5">
 				<div style={{ height: '4vh' }}></div>
 			</section>
-		</div>
+		</main>
 	);
 };

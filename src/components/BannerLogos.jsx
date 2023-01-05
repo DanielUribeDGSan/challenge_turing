@@ -31,7 +31,7 @@ export const BannerLogos = (props) => {
 					</p>
 				</div>
 				<div className="col-12 col-md-4 col-lg-6 d-flex align-items-center justify-content-md-end justify-content-lg-end">
-					<Link to="/servicios" className="button-lg">
+					<Link to="/servicios" className="button-lg button-lg-primary-white">
 						Mas información
 					</Link>
 				</div>

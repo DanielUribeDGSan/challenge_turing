@@ -30,7 +30,7 @@
 	font-weight: 700;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
 	.navbar .logo {
 		font-size: 1.7rem;
 	}

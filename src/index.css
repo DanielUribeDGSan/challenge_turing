@@ -55,7 +55,7 @@ a {
 	border-bottom: 2px solid var(--primary);
 	padding-bottom: 3px;
 }
-@media (max-width: 800px) {
+@media (max-width: 767px) {
 	.link-small {
 		font-size: 1rem;
 	}
@@ -70,18 +70,14 @@ a {
 	font-size: 1.3rem;
 	letter-spacing: 2px;
 }
-@media (max-width: 800px) {
+@media (max-width: 767px) {
 	.title-sm {
 		font-size: 1rem;
 	}
 }
 
 /* buttons */
-
 .button-lg {
-	background-color: transparent;
-	border: 0.1rem solid var(--primary);
-	color: var(--primary);
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1.2rem;
@@ -90,15 +86,33 @@ a {
 	position: relative;
 	text-align: center;
 	border-radius: 3px;
+	width: fit-content;
 }
 
-.button-lg:hover {
+.button-lg-primary-white {
+	background-color: transparent;
+	border: 0.1rem solid var(--primary);
+	color: var(--primary);
+}
+
+.button-lg-primary-white:hover {
 	background-color: var(--primary);
 	border: 0.1rem solid var(--white);
 	color: var(--white);
 }
 
-@media (max-width: 800px) {
+.button-white-lg {
+	background-color: transparent;
+	border: 0.1rem solid var(--white);
+	color: var(--white);
+}
+.button-white-lg:hover {
+	background-color: transparent;
+	border: 0.1rem solid var(--white);
+	color: var(--white);
+}
+
+@media (max-width: 767px) {
 	.button-lg {
 		font-size: 1rem;
 		padding: 0.3rem 0.3rem;
@@ -114,7 +128,7 @@ a {
 .p-opacity {
 	opacity: 0.8;
 }
-@media (max-width: 800px) {
+@media (max-width: 767px) {
 	.p-lg {
 		font-size: 1.1rem;
 	}
@@ -127,7 +141,7 @@ a {
 	}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
 	.d-none-sm {
 		display: none !important;
 	}
