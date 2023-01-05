@@ -10,7 +10,7 @@ export const HomePage = () => {
 	const bannerVideoTitle = 'Bienvenido';
 	const bannerVideoSubTitle = 'Hacemos los datos fáciles de usar';
 	const bannerVideoQuestion = '¿Qué es una consultoría ferozmente humana?';
-	console.log(screen.width, screen.height);
+
 	return (
 		<main>
 			<BannerVideo
