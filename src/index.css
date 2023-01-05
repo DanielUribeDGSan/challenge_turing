@@ -55,7 +55,7 @@ a {
 	border-bottom: 2px solid var(--primary);
 	padding-bottom: 3px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
 	.link-small {
 		font-size: 1rem;
 	}
@@ -66,11 +66,16 @@ a {
 }
 .title-sm {
 	color: var(--primary);
-
 	font-weight: 700;
 	font-size: 1.3rem;
 	letter-spacing: 2px;
 }
+@media (max-width: 800px) {
+	.title-sm {
+		font-size: 1rem;
+	}
+}
+
 /* buttons */
 
 .button-lg {
@@ -91,4 +96,45 @@ a {
 	background-color: var(--primary);
 	border: 0.1rem solid var(--white);
 	color: var(--white);
+}
+
+@media (max-width: 800px) {
+	.button-lg {
+		font-size: 1rem;
+		padding: 0.3rem 0.3rem;
+	}
+}
+
+/* paragraphs */
+
+.p-lg {
+	font-size: 1.5rem;
+}
+
+.p-opacity {
+	opacity: 0.8;
+}
+@media (max-width: 800px) {
+	.p-lg {
+		font-size: 1.1rem;
+	}
+}
+
+/* utils */
+@media (max-width: 1190px) {
+	.d-none-md {
+		display: none !important;
+	}
+}
+
+@media (max-width: 800px) {
+	.d-none-sm {
+		display: none !important;
+	}
+}
+
+@media (min-width: 1101px) {
+	.d-none-lg {
+		display: none !important;
+	}
 }

@@ -4,7 +4,7 @@ import './BannerVideo.css';
 
 export const BannerVideo = ({ title, sub_title, question }) => {
 	return (
-		<div className="banner__video__container">
+		<div className="banner__video__container position-relative">
 			<div className="overlay "></div>
 			<video src={videoBg} autoPlay loop muted />
 			<div className="banner__video__title container">

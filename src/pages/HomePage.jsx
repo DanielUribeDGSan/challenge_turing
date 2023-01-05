@@ -2,17 +2,21 @@ import React from 'react';
 import { BannerVideo } from '../components/BannerVideo';
 import { ColorLine } from '../components/ColorLine';
 import { Link } from 'react-router-dom';
-import { SliderWorks } from '../components/SliderWorks';
 import { LinksSmall } from '../components/LinksSmall';
 import { BannerLogos } from '../components/BannerLogos';
+import { SectionImagesCircle } from '../components/sections/SectionImagesCircle';
 
 export const HomePage = () => {
+	const bannerVideoTitle = 'Bienvenido';
+	const bannerVideoSubTitle = 'Hacemos los datos fáciles de usar';
+	const bannerVideoQuestion = '¿Qué es una consultoría ferozmente humana?';
+	console.log(screen.width, screen.height);
 	return (
 		<div>
 			<BannerVideo
-				title="Bienvenido"
-				sub_title="Hacemos los datos fáciles de usar"
-				question="¿Qué es una consultoría ferozmente humana?"
+				title={bannerVideoTitle}
+				sub_title={bannerVideoSubTitle}
+				question={bannerVideoQuestion}
 			/>
 			<ColorLine />
 			<section className="container pt-5 pb-5">
@@ -30,9 +34,15 @@ export const HomePage = () => {
 			</section> */}
 			<section className="bg-gray pt-5 pb-5">
 				<div className="container">
-					<LinksSmall path="/" text="TECNOLOGÍAS QUE UTILIZAMOS" />
-					<BannerLogos className="mt-2 mb-2" />
+					<article>
+						<h1 className="title-sm">TECNOLOGÍAS QUE UTILIZAMOS</h1>
+						<BannerLogos className="mt-2 mb-2" />
+					</article>
 				</div>
+			</section>
+			<SectionImagesCircle />
+			<section className="bg-gray pt-5 pb-5">
+				<div style={{ height: '4vh' }}></div>
 			</section>
 		</div>
 	);

@@ -24,13 +24,13 @@ export const BannerLogos = (props) => {
 				</div>
 			</div>
 			<div className="row bannerLogos__content align-items-center mt-lg-5 mt-3">
-				<div className="col-12 col-md-6 d-flex align-items-center ">
+				<div className="col-12 col-md-8 col-lg-6 d-flex align-items-center ">
 					<p>
 						Tenemos asociaciones sólidas con las principales empresas
 						tecnológicas del mundo.
 					</p>
 				</div>
-				<div className="col-12 col-md-6 d-flex align-items-center justify-content-lg-end">
+				<div className="col-12 col-md-4 col-lg-6 d-flex align-items-center justify-content-md-end justify-content-lg-end">
 					<Link to="/servicios" className="button-lg">
 						Mas información
 					</Link>

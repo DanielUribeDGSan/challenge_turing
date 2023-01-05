@@ -5,7 +5,7 @@ export const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg">
 			<div className="container">
-				<NavLink className="navbar-brand" to="/">
+				<NavLink className="navbar-brand logo" to="/">
 					TURING-IA
 				</NavLink>
 				<button
@@ -29,6 +29,16 @@ export const Navbar = () => {
 								to="/"
 							>
 								Inicio
+							</NavLink>
+						</li>
+						<li className="nav-item">
+							<NavLink
+								className={({ isActive }) =>
+									`nav-link  ${isActive ? 'active' : ''}`
+								}
+								to="/servicios"
+							>
+								Servicios
 							</NavLink>
 						</li>
 					</ul>

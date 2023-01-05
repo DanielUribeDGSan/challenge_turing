@@ -39,9 +39,10 @@
 }
 
 .banner__video__title p {
+	position: absolute;
 	font-size: 1.5rem;
 	color: var(--white);
-	margin-top: 15%;
+	bottom: 22%;
 }
 
 .banner__video__title h1,
@@ -50,10 +51,10 @@
 	display: inline-flex;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
 	.banner__video__title h1 {
 		font-size: 2.7rem;
-		margin-top: 20%;
+		margin-top: 30%;
 	}
 	.banner__video__title h2 {
 		font-size: 1.4rem;
@@ -61,8 +62,8 @@
 	}
 	.banner__video__title p {
 		text-align: center;
-		margin-top: 60%;
 		font-size: 1.3rem;
+		bottom: 15%;
 	}
 	.banner__video__title {
 		display: flex;
