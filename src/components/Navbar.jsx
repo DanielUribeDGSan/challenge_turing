@@ -32,6 +32,16 @@ export const Navbar = () => {
 								Servicios
 							</NavLink>
 						</li>
+						<li className="nav-item">
+							<NavLink
+								className={({ isActive }) =>
+									`nav-link  ${isActive ? 'active' : ''}`
+								}
+								to="/data"
+							>
+								Información de contáctos
+							</NavLink>
+						</li>
 					</ul>
 				</div>
 			</div>
