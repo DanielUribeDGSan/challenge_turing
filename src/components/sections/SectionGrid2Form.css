@@ -1,0 +1,24 @@
+.section__grid2__form .content {
+	background-color: var(--primary);
+	padding-left: 20%;
+}
+
+.section__grid2__form h3 {
+	font-size: 3.5rem;
+	margin-top: 3rem;
+}
+
+.section__grid2__form .form {
+	background-color: var(--gray);
+	padding: 0 5%;
+}
+
+@media (max-width: 767px) {
+	.section__grid2__form .content {
+		padding-left: inherit;
+	}
+	.section__grid2__form h3 {
+		font-size: 2.7rem;
+		margin-top: 2rem;
+	}
+}

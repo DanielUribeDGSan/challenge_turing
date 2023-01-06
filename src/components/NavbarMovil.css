@@ -1,0 +1,65 @@
+.navbar__movil nav {
+	background-color: var(--dark-gray);
+	height: 100vh;
+	width: 100%;
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	overflow-y: auto;
+}
+
+.navbar__movil .container {
+	z-index: 2;
+}
+
+.navbar__movil .close-btn {
+	border: 0px;
+	background-color: transparent;
+	position: absolute;
+	font-size: 3rem;
+	right: 20px;
+	top: 10px;
+}
+
+.navbar__movil ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30%;
+}
+.navbar__movil ul li {
+	margin-bottom: 20px;
+}
+
+.navbar__movil ul li a {
+	display: inline-flex;
+}
+
+.fade-in {
+	animation: fadeIn 1s;
+}
+
+.fade-out {
+	animation: fadeOut 1s;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}

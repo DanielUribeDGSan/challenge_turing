@@ -42,7 +42,8 @@
 		bottom: 40%;
 	}
 	.banner_image p {
-		width: 100%;
+		max-width: 100%;
+		width: auto;
 		padding-right: 10%;
 		font-size: 1.6rem;
 		bottom: 8%;

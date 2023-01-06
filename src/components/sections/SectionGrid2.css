@@ -1,0 +1,22 @@
+.section__grid2 img {
+	object-fit: cover;
+	border-radius: 0 50px 0 0;
+}
+
+.section__grid2 p {
+	font-size: 1.3rem;
+}
+
+.section__grid2 h2 {
+	opacity: 0.7;
+}
+
+.p-5-auto {
+	padding: 5%;
+}
+
+@media (max-width: 767px) {
+	.p-5-auto {
+		padding: 0px;
+	}
+}
